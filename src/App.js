@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import React, { useState } from "react";
 
 function App() {
+  const [output, setOutput] = useState("");
+
+  const runBinary = async () => {
+    try {
+      const res = await fetch("http://localhost:5000/run-c-binary");
+      const data = await res.json();
+      setOutput(data.output);
+    } catch (err) {
+      console.error("Error calling API:", err);
+      setOutput("Error calling API");
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px" }}>
+      <h1>React + Node + C Binary Demo</h1>
+      <button onClick={runBinary}>Run C Binary</button>
+      <pre>{output}</pre>
     </div>
   );
 }
 
 export default App;
+
