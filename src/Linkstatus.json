@@ -1,0 +1,18 @@
+[
+  { "id": 1, "linkstatus": 1, "speed": 1000 },
+  { "id": 2, "linkstatus": 0, "speed": 100 },
+  { "id": 3, "linkstatus": 1, "speed": 1000 },
+  { "id": 4, "linkstatus": 0, "speed": 100 },
+  { "id": 5, "linkstatus": 1, "speed": 1000 },
+  { "id": 6, "linkstatus": 0, "speed": 100 },
+  { "id": 7, "linkstatus": 1, "speed": 1000 },
+  { "id": 8, "linkstatus": 0, "speed": 100 },
+  { "id": 9, "linkstatus": 1, "speed": 1000 },
+  { "id": 10, "linkstatus": 0, "speed": 100 },
+  { "id": 11, "linkstatus": 1, "speed": 1000 },
+  { "id": 12, "linkstatus": 0, "speed": 100 },
+  { "id": 13, "linkstatus": 1, "speed": 1000 },
+  { "id": 14, "linkstatus": 0, "speed": 100 },
+  { "id": 15, "linkstatus": 1, "speed": 1000 },
+  { "id": 16, "linkstatus": 0, "speed": 100 }
+]
