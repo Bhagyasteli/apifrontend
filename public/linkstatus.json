@@ -1,4 +1,7 @@
 [
-  { "col1": "Data 1", "col2": "Data 2", "col3": "Data 3", "col4": "Data 4" },
-  { "col1": "Data 5", "col2": "Data 6", "col3": "Data 7", "col4": "Data 8" }
+  {
+    "stp": 1,
+    "rstp": 1,
+    "mstp": 0
+  }
 ]

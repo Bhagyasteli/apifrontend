@@ -1,112 +1,29 @@
-/* .connector-row {
-  display: flex;
-  gap: 15px;        
-  padding: 10px;
-}
-
-
-.outer-circle {
+.thermometer {
   width: 60px;
-  height: 60px;
-  border: 1.8px solid #000;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.inner-circle {
-  width: 46px;
-  height: 46px;
-  border: 1.6px solid #000;
-  border-radius: 50%;
-  position: relative;
-}
-
-
-.top-holes {
-  position: absolute;
-  top: 18%;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.hole.small {
-  width: 5px;
-  height: 5px;
-  border: 1.6px solid #000;
-  border-radius: 50%;
-}
-
-
-.bottom-ports {
-  position: absolute;
-  bottom: 12%;
-  width: 65%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.port {
-  width: 11px;
-  height: 16px;
-  border: 1.6px solid #000;
-  border-radius: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.inner-port {
-  width: 4px;
-  height: 8px;
-  border: 1.6px solid #000;
+  height: 250px;
+  background: #e6f7f9;
+  border: 3px solid #aaa;
   border-radius: 30px;
-} */
-
-
-
-.container {
-  padding: 20px;
-  font-family: Arial;
+  padding: 5px;
+  position: relative;
+  margin: auto;
 }
 
-.print-btn {
-  padding: 10px 20px;
-  background: #2563eb;
+.mercury {
+  width: 20px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  padding: 8px 16px;
+  background: black;
   color: white;
   border: none;
   cursor: pointer;
+  margin-top: 12px;
   border-radius: 6px;
-}
-
-.side-panel {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 350px;
-  height: 100vh;
-  background: #ffffff;
-  border-left: 3px solid #ccc;
-  padding: 20px;
-  box-shadow: -4px 0 10px rgba(0,0,0,0.1);
-  animation: slideIn 0.3s ease;
-}
-
-@keyframes slideIn {
-  from { right: -400px; }
-  to { right: 0; }
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-table th, table td {
-  padding: 10px;
-  border: 1px solid #aaa;
 }
