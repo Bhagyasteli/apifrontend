@@ -1,29 +1,115 @@
-.thermometer {
-  width: 60px;
-  height: 250px;
-  background: #e6f7f9;
-  border: 3px solid #aaa;
-  border-radius: 30px;
-  padding: 5px;
-  position: relative;
-  margin: auto;
+.thermo-container {
+  text-align: center;
+  font-family: Poppins, Arial;
+  margin-top: 20px;
 }
 
-.mercury {
+.title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.thermo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.scale {
+  margin-right: 15px;
+}
+
+.scale-row {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.scale-number {
+  font-size: 13px;
+  width: 32px;
+  text-align: right;
+  margin-right: 6px;
+}
+
+.scale-line {
+  width: 18px;
+  height: 2px;
+  background: #000;
+}
+
+.thermo-shell {
+  width: 80px;
+  height: 360px;
+  background: #e8f2f7;
+  border-radius: 40px;
+  position: relative;
+  border: 4px solid #8eb4c7;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+}
+
+.thermo-inner {
   width: 20px;
-  border-radius: 10px;
+  height: 260px;
+  background: #ffffff;
+  border-radius: 20px;
   position: absolute;
-  bottom: 5px;
+  top: 40px;
   left: 50%;
   transform: translateX(-50%);
+  overflow: hidden;
+  box-shadow: inset 0 0 12px rgba(0,0,0,0.45);
 }
 
-.btn {
-  padding: 8px 16px;
-  background: black;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-top: 12px;
+.mercury-fill {
+  background: linear-gradient(to top, #ff0000, #ffa600);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.9s ease-in-out;
+}
+
+.tube-highlight {
+  width: 6px;
+  height: 100%;
+  background: rgba(255,255,255,0.4);
   border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
+
+.bulb-base {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.9);
+  border: 4px solid #4a4a4a;
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.5), 0 0 12px rgba(255,0,0,0.5);
+}
+
+.bulb-center {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffebeb, #ff0000);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.slider {
+  margin-top: 25px;
+  width: 50%;
+}
+
+.temp-display {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
 }
