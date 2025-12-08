@@ -1,7 +1,18 @@
 [
-  {
-    "stp": 1,
-    "rstp": 1,
-    "mstp": 0
-  }
+  { "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  { "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 },
+  {  "linkstatus": 1 },
+  {  "linkstatus": 0 }
 ]
