@@ -1,18 +1,82 @@
 [
-  { "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  { "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 },
-  {  "linkstatus": 1 },
-  {  "linkstatus": 0 }
+  { "status": "GOOD",
+    "MID":141,
+    "PORTNO":1
+    
+},
+   { "status": "BAD",
+    "MID":141,
+    "PORTNO":2
+    
+}, 
+{ "status": "GOOD",
+    "MID":141,
+    "PORTNO":3
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":4
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":5
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":6
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":7
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":8
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":9
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":10
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":11
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":12
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":13
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":14
+    
+},
+ { "status": "BAD",
+    "MID":141,
+    "PORTNO":15
+    
+},
+ { "status": "GOOD",
+    "MID":141,
+    "PORTNO":16
+    
+}
 ]
