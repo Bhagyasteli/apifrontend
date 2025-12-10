@@ -1,0 +1,26 @@
+[
+  {
+    "port_number": 1,
+    "fiber_side": "ec01",
+    "host_side": "141",
+    "status": "GOOD"
+  },
+  {
+    "port_number": 2,
+    "fiber_side": "ec01",
+    "host_side": "141",
+    "status": "GOOD"
+  },
+  {
+    "port_number": 3,
+    "fiber_side": "ec01",
+    "host_side": "141",
+    "status": "BAD"
+  },
+  {
+    "port_number": 4,
+    "fiber_side": "ec01",
+    "host_side": "141",
+    "status": "GOOD"
+  }
+]

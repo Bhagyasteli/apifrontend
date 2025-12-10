@@ -1,24 +1,5 @@
 [
-  { "status": "GOOD",
-    "MID":141,
-    "PORTNO":1
-    
-},
-   { "status": "BAD",
-    "MID":141,
-    "PORTNO":2
-    
-}, 
-{ "status": "GOOD",
-    "MID":141,
-    "PORTNO":3
-    
-},
- { "status": "BAD",
-    "MID":141,
-    "PORTNO":4
-    
-},
+ 
  { "status": "GOOD",
     "MID":141,
     "PORTNO":5

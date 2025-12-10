@@ -1,9 +1,5 @@
 [
-    {
-        "Phy_number":"1",
-        "tempreture" : "-30.54",
-        "status": "ok"
-    },
+    
      {
         "Phy_number":"2",
         "tempreture" : "-10.54",
